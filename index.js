@@ -19,3 +19,9 @@ function distanceTravelledInFeet(start, finish) {
     return (finish - start) * 264;
   }
 }
+
+function calculatesFarePrice(start, finish) {
+  if (distanceTravelledInFeet(start, finish) <= 400) {
+    return 0
+  }
+}
